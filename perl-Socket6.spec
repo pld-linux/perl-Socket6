@@ -15,8 +15,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-perl-Socket6 is a module that implements a IPv6
-API for Perl programs.
+perl-Socket6 is a module that implements a IPv6 API for Perl programs.
 
 %description -l pl
 perl-Socket6 jest modu³em umo¿liwiaj±cych dostêp do us³ug IPv6 z
@@ -39,7 +38,7 @@ install -d $RPM_BUILD_ROOT
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Socket6
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf ChangeLog README 
