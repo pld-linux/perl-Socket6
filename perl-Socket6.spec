@@ -2,7 +2,7 @@
 Summary:	perl-Socket6 perl module
 Summary(pl):	Modu³ perla perl-Socket6
 Name:		perl-Socket6
-Version:	0.09
+Version:	0.10
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
