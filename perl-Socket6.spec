@@ -40,7 +40,7 @@ programów Perla.
 %setup -q -n %{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 pod2man --section=3pm Socket6.pm >Socket6.3pm
 
