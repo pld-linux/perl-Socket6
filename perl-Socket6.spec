@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Socket6
 Summary(zh_CN):	Socket6 Perl дё©И
 Name:		perl-Socket6
 Version:	0.11
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
