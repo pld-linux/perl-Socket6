@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Socket6
 Summary(it):	Modulo di Perl Socket6
 Summary(ja):	Socket6 Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Socket6 ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Socket6
+Summary(nb):	Perlmodul Socket6
 Summary(pl):	Modu³ Perla Socket6
 Summary(pt):	Módulo de Perl Socket6
 Summary(pt_BR):	Módulo Perl Socket6
