@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without  tests   # do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Socket6
 %define		pnam	Socket6
@@ -21,7 +25,7 @@ Summary(zh_CN):	Socket6 Perl Ä£¿é
 Name:		perl-Socket6
 Version:	0.17
 Release:	1
-License:	GPL
+License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	2ebf9659bedabfd9a128889730455c56
@@ -44,6 +48,8 @@ programów Perla.
 	INSTALLDIRS=vendor
 %{__make}
 pod2man --section=3pm Socket6.pm >Socket6.3pm
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
