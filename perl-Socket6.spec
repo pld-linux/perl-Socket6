@@ -41,7 +41,7 @@ programów Perla.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 pod2man --section=3pm Socket6.pm >Socket6.3pm
 
