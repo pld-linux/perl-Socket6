@@ -20,11 +20,11 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Socket6
 Summary(zh_CN):	Socket6 Perl Ä£¿é
 Name:		perl-Socket6
 Version:	0.11
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -40,7 +40,8 @@ programów Perla.
 %setup -q -n %{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 pod2man --section=3pm Socket6.pm >Socket6.3pm
 
@@ -57,8 +58,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog README
-%{perl_sitearch}/Socket6.pm
-%dir %{perl_sitearch}/auto/Socket6
-%{perl_sitearch}/auto/Socket6/Socket6.bs
-%attr(755,root,root) %{perl_sitearch}/auto/Socket6/Socket6.so
+%{perl_vendorarch}/Socket6.pm
+%dir %{perl_vendorarch}/auto/Socket6
+%{perl_vendorarch}/auto/Socket6/Socket6.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Socket6/Socket6.so
 %{_mandir}/man3/*
