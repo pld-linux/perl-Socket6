@@ -42,7 +42,7 @@ programów Perla.
 %build
 perl Makefile.PL
 %{__make}
-pod2man --section 3pm Socket6.pm >Socket6.3pm
+pod2man --section=3pm Socket6.pm >Socket6.3pm
 
 %install
 rm -rf $RPM_BUILD_ROOT
