@@ -19,12 +19,12 @@ Summary(sv):	Socket6 Perlmodul
 Summary(uk):	Модуль для Perl Socket6
 Summary(zh_CN):	Socket6 Perl дё©И
 Name:		perl-Socket6
-Version:	0.14
+Version:	0.16
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
-# Source0-md5:	f55b69102c5bc739b6f273da49f7ded0
+# Source0-md5:	68de70ce820caeed30841f82db6c1d2f
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
