@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Socket6
-%define	pnam	Socket6
+%define		pdir	Socket6
+%define		pnam	Socket6
 Summary:	Socket6 Perl module
 Summary(cs):	Modul Socket6 pro Perl
 Summary(da):	Perlmodul Socket6
