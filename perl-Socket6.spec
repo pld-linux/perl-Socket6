@@ -2,13 +2,13 @@
 Summary:	perl-Socket6 perl module
 Summary(pl):	Modu³ perla perl-Socket6
 Name:		perl-Socket6
-Version:	0.07
-Release:	2
+Version:	0.08
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Socket6-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Socket6/Socket6-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 %requires_eq	perl
