@@ -43,3 +43,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %{perl_sitearch}/Socket6.pm
+%{perl_sitearch}/auto/Socket6/Socket6.so
+%{perl_sitearch}/auto/Socket6/Socket6.bs
