@@ -55,7 +55,8 @@ pod2man --section=3pm Socket6.pm >Socket6.3pm
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_mandir}/man3
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 install Socket6.3pm $RPM_BUILD_ROOT%{_mandir}/man3
 
 %clean
