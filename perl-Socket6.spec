@@ -6,22 +6,22 @@
 %define		pdir	Socket6
 %define		pnam	Socket6
 Summary:	Socket6 Perl module
-Summary(cs):	Modul Socket6 pro Perl
-Summary(da):	Perlmodul Socket6
-Summary(de):	Socket6 Perl Modul
-Summary(es):	Módulo de Perl Socket6
-Summary(fr):	Module Perl Socket6
-Summary(it):	Modulo di Perl Socket6
-Summary(ja):	Socket6 Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Socket6 ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Socket6
-Summary(pl):	Modu³ Perla Socket6
-Summary(pt):	Módulo de Perl Socket6
-Summary(pt_BR):	Módulo Perl Socket6
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Socket6
-Summary(sv):	Socket6 Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Socket6
-Summary(zh_CN):	Socket6 Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Socket6 pro Perl
+Summary(da.UTF-8):   Perlmodul Socket6
+Summary(de.UTF-8):   Socket6 Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Socket6
+Summary(fr.UTF-8):   Module Perl Socket6
+Summary(it.UTF-8):   Modulo di Perl Socket6
+Summary(ja.UTF-8):   Socket6 Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Socket6 í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Socket6
+Summary(pl.UTF-8):   ModuÅ‚ Perla Socket6
+Summary(pt.UTF-8):   MÃ³dulo de Perl Socket6
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Socket6
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Socket6
+Summary(sv.UTF-8):   Socket6 Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Socket6
+Summary(zh_CN.UTF-8):   Socket6 Perl æ¨¡å—
 Name:		perl-Socket6
 Version:	0.19
 Release:	1
@@ -36,9 +36,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Socket6 is a module that implements a IPv6 API for Perl programs.
 
-%description -l pl
-Socket6 jest modu³em umo¿liwiaj±cym dostêp do us³ug IPv6 z poziomu
-programów Perla.
+%description -l pl.UTF-8
+Socket6 jest moduÅ‚em umoÅ¼liwiajÄ…cym dostÄ™p do usÅ‚ug IPv6 z poziomu
+programÃ³w Perla.
 
 %prep
 %setup -q -n %{pnam}-%{version}
