@@ -27,8 +27,9 @@ Version:	0.19
 Release:	1
 License:	BSD-like
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Socket6/%{pnam}-%{version}.tar.gz
 # Source0-md5:	35e4bb7e09ca3154a44bcaa8959780a2
+URL:		http://search.cpan.org/dist/Socket6/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -65,8 +66,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog README
-%{perl_vendorarch}/%{pdir}.pm
-%dir %{perl_vendorarch}/auto/%{pdir}
-%{perl_vendorarch}/auto/%{pdir}/%{pdir}.bs
-%attr(755,root,root) %{perl_vendorarch}/auto/%{pdir}/%{pdir}.so
+%{perl_vendorarch}/Socket6.pm
+%dir %{perl_vendorarch}/auto/Socket6
+%{perl_vendorarch}/auto/Socket6/Socket6.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Socket6/Socket6.so
 %{_mandir}/man3/*
