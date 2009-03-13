@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl Socket6
 Summary(zh_CN.UTF-8):	Socket6 Perl 模块
 Name:		perl-Socket6
 Version:	0.20
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Socket6/%{pnam}-%{version}.tar.gz
