@@ -24,11 +24,12 @@ Summary(uk.UTF-8):	Модуль для Perl Socket6
 Summary(zh_CN.UTF-8):	Socket6 Perl 模块
 Name:		perl-Socket6
 Version:	0.23
-Release:	5
+Release:	6
 License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Socket6/%{pnam}-%{version}.tar.gz
 # Source0-md5:	2c02adb13c449d48d232bb704ddbd492
+Patch0:		pod-syntax.patch
 URL:		http://search.cpan.org/dist/Socket6/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -43,6 +44,7 @@ programów Perla.
 
 %prep
 %setup -q -n %{pnam}-%{version}
+%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \
