@@ -55,6 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog README
 %{perl_vendorarch}/Socket6.pm
 %dir %{perl_vendorarch}/auto/Socket6
-%{perl_vendorarch}/auto/Socket6/Socket6.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Socket6/Socket6.so
 %{_mandir}/man3/Socket6.3pm*
