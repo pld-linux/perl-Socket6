@@ -9,7 +9,7 @@ Summary:	Socket6 Perl module - IPv6-related part of the C socket.h defines and s
 Summary(pl.UTF-8):	Moduł Perla Socket6 - definicje i operacje na strukturach socket.h związanych z IPv6
 Name:		perl-Socket6
 Version:	0.23
-Release:	10
+Release:	11
 License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Socket6/%{pnam}-%{version}.tar.gz
