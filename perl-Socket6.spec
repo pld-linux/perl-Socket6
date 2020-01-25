@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Socket6
 %define		pnam	Socket6
 Summary:	Socket6 Perl module - IPv6-related part of the C socket.h defines and structure manipulators
