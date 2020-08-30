@@ -13,9 +13,10 @@ License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Socket6/%{pnam}-%{version}.tar.gz
 # Source0-md5:	dab4b2dcc76f81b8bedea72d8fd1bc28
-URL:		http://search.cpan.org/dist/Socket6/
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		https://metacpan.org/release/Socket6
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
