@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Socket6
 %define		pnam	Socket6
@@ -13,7 +13,7 @@ License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Socket6/%{pnam}-%{version}.tar.gz
 # Source0-md5:	dab4b2dcc76f81b8bedea72d8fd1bc28
-URL:		https://metacpan.org/release/Socket6
+URL:		https://metacpan.org/dist/Socket6
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
